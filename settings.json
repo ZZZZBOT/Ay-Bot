@@ -1,0 +1,18 @@
+{
+    "self_mode": false,
+	"autobio": false,
+	"antihidetag": true,
+	"user_register": true,
+	"anti_delete" : false,
+	"anticall": false,
+	"prefix": ".",
+	"language":"ind",
+	"ownerNumber": "6282195322106",
+	"ownerNumberr": "6282195322106",
+	"cr": "@Miku_Bot",
+	"ownername": "Miku Owner",
+	"botname":"🌹Miku-Bot🌹",
+	"thumb":"thumbnail_1.jpg",
+	"fakethumb":"thumbnail_2.jpg", 
+	"fake": " 「🌹Miku-Bot🌹」\nCreated By @Miku_Owner"
+}
