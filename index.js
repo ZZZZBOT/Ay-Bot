@@ -1954,6 +1954,7 @@ const sendButton = async (from, context, fortext, but, mek) => {
         }
             alpha.sendMessage(from, buttonMessages, MessageType.buttonsMessage, options)
         }
+        /*
         const sendButImage = async (from, context, fortext, img, but, mek) => {
             jadinya = await alpha.prepareMessage(from, img, image)
             buttonMessagesI = {
@@ -1965,6 +1966,7 @@ const sendButton = async (from, context, fortext, but, mek) => {
         }
             alpha.sendMessage(from, buttonMessagesI, MessageType.buttonsMessage, { quoted: mek})
         }
+        
         const sendButVideo = async(id, text1, desc1, vid1, but = [], options = {}) => {
             kma = vid1
             mhan = await alpha.prepareMessage(from, kma, video)
@@ -1980,7 +1982,9 @@ const sendButton = async (from, context, fortext, but, mek) => {
         async function sendButLocation(id, text1, desc1, gam1, but = [], options = {}) {
             const buttonMessages = { locationMessage: { jpegThumbnail: gam1 }, contentText: text1, footerText: desc1, buttons: but, headerType: 6 }
             return alpha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-        }                
+        } 
+     */
+                  
         const sendKontak = (from, nomor, nama, org = "") => {
    	    const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + 'ORG:' + org + '\n' + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	    alpha.sendMessage(from, {displayname: nama, vcard: vcard}, MessageType.contact, {quoted: mek})
